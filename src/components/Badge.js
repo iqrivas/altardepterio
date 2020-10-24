@@ -1,24 +1,27 @@
 import React from 'react';
-
-import avatar from '../images/pterio.png';
-import logo from '../images/undraw_Container_ship_ok1c.png';
+import './styles/Badge.css';
+import avatar from '../images/undraw_Container_ship_ok1c.png';
+import logo from '../images/pterio_home.png';
 
 class Badge extends React.Component {
     render () {
-        return <div>
-            <div>
-                <img src={logo} width="150" height="50" alt="Logo"/>
+        return (
+        <div className="Badge">
+            <div className="Badge__header">
+                <img src={logo} alt="Logo"/>
             </div>
 
-            <div>
-                <img src={avatar} width="50" height="50" alt="Avatar"/>
-                <h1>Cadena de Oración</h1>
+            <div className="Badge__section-name">
+                <img className="Badge__avatar" src={avatar} alt="Avatar"/>
+                <h1>Cadena <br/> de Oración</h1>
             </div>
-            <div>
-                <p>por Anónimo</p>
-                <p>#oompaloompa</p>
+            <div className="Badge__section-info">
+                <h3>Salven al Pastelito</h3>
+                <div>por Anónimo</div>
             </div>
+            <div className="Badge__footer"> #oompaloompa </div>
         </div>
+        )
     }
 }
 
