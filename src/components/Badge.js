@@ -7,19 +7,15 @@ class Badge extends React.Component {
     render () {
         return (
         <div className="Badge">
-            <div className="Badge__header">
-                <img src={logo} alt="Logo"/>
-            </div>
-
             <div className="Badge__section-name">
                 <img className="Badge__avatar" src={avatar} alt="Avatar"/>
-                <h1>Cadena <br/> de Oración</h1>
+                <h1>{this.props.requestType}</h1>
             </div>
             <div className="Badge__section-info">
-                <h3>Salven al Pastelito</h3>
-                <div>por Anónimo</div>
+                <h3>{this.props.requestTitle}</h3>
+                <div>{this.props.requestAuthor}</div>
             </div>
-            <div className="Badge__footer"> #oompaloompa </div>
+            <div className="Badge__footer"> {this.props.requestTag} </div>
         </div>
         )
     }

@@ -1,0 +1,26 @@
+.Navbar {
+    width: 100%;
+    padding: 0.5rem 0;
+    background-color: #1C3643;
+  }
+  
+.Navbar__brand {
+    color: #ffffff;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    height: 50px;
+  }
+
+.Navbar__brand:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+  
+.Navbar__brand-logo {
+    position: relative;
+    margin-right: 0.5rem;
+    height: 100px;
+    top: 50%;
+}

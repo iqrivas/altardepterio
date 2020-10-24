@@ -1,0 +1,16 @@
+.BadgeNew__hero {
+    width: 100%;
+    background: #1B1B25;
+    margin-bottom: 1rem;
+    color: #ffffff;
+    height: 100px;
+    overflow: hidden;
+}
+
+.BadgeNew__hero img {
+    position: relative;
+    object-fit: cover;
+    top: -350%;
+}
+
+

@@ -4,11 +4,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
 import './global.css';
-import Badge from './components/Badge';
+import BadgeNew from './pages/BadgeNew';
 
 const container = document.getElementById('root');
 
-ReactDOM.render( <Badge/> , container);
+ReactDOM.render( 
+    <BadgeNew/>
+    ,container
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

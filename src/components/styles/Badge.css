@@ -3,12 +3,12 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.10);
     border-radius: 8px 8px 8px 8px;
     overflow: hidden;
-    height: 380px;
+    height: 300px;
   }
   
   .Badge__header {
     padding: 0.5rem 0;
-    height: 80px;
+    height: 100px;
     background: #1B1B25;
     display: flex;
     justify-content: center;
