@@ -5,11 +5,12 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
 import './global.css';
 import BadgeNew from './pages/BadgeNew';
+import Badges from './pages/Badges';
 
 const container = document.getElementById('root');
 
 ReactDOM.render( 
-    <BadgeNew/>
+    <Badges/>
     ,container
 );
 

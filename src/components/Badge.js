@@ -13,7 +13,8 @@ class Badge extends React.Component {
             </div>
             <div className="Badge__section-info">
                 <h3>{this.props.requestTitle}</h3>
-                <div>{this.props.requestAuthor}</div>
+                <p>{this.props.requestDescription}</p>
+                <div>por {this.props.requestAuthor}</div>
             </div>
             <div className="Badge__footer"> {this.props.requestTag} </div>
         </div>

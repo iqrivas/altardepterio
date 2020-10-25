@@ -8,9 +8,7 @@
 }
 
 .BadgeNew__hero img {
-    position: relative;
     object-fit: cover;
-    top: -350%;
 }
 
 
