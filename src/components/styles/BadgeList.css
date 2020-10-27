@@ -1,0 +1,38 @@
+.BadgeList {
+  background: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 8px 8px 8px 8px;
+  padding: 1rem 0;
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.BadgeList__section-name {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+.BadgeList__section-info {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+.BadgeList__section-info p {
+  font-size: 1.4rem;
+}
+
+.Badge__avatar {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}

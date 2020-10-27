@@ -29,8 +29,8 @@ class BadgeForm extends React.Component {
                         <select onChange={this.props.onChange} className="form-control" type="text" 
                                 name="requestType" value={this.props.formValues.requestType}>
                             <option value="null">Selecciona una opción</option>
-                            <option value="cadenaOracion">Cadena de Oración</option>
-                            <option value="consejoPterio">Consejo de Pterio</option>
+                            <option value="Cadena de Oración">Cadena de Oración</option>
+                            <option value="Consejo de Pterio">Consejo de Pterio</option>
                         </select>
                         
                         <label>Título de la Solicitud </label>

@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import App from './components/App';
+//import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
 import './global.css';
-import BadgeNew from './pages/BadgeNew';
+//import BadgeNew from './pages/BadgeNew';
 import Badges from './pages/Badges';
 
 const container = document.getElementById('root');
 
 ReactDOM.render( 
-    <Badges/>
-    ,container
+    <App/>
+    , container
 );
 
 // If you want to start measuring performance in your app, pass a function
