@@ -1,27 +1,26 @@
 {
   "files": {
-    "main.css": "/altardepterio/static/css/main.0a3b4ff7.chunk.css",
-    "main.js": "/altardepterio/static/js/main.a7b01d7b.chunk.js",
-    "main.js.map": "/altardepterio/static/js/main.a7b01d7b.chunk.js.map",
-    "runtime-main.js": "/altardepterio/static/js/runtime-main.66ed1716.js",
-    "runtime-main.js.map": "/altardepterio/static/js/runtime-main.66ed1716.js.map",
-    "static/css/2.95f25948.chunk.css": "/altardepterio/static/css/2.95f25948.chunk.css",
-    "static/js/2.c0795b40.chunk.js": "/altardepterio/static/js/2.c0795b40.chunk.js",
-    "static/js/2.c0795b40.chunk.js.map": "/altardepterio/static/js/2.c0795b40.chunk.js.map",
-    "index.html": "/altardepterio/index.html",
-    "static/css/2.95f25948.chunk.css.map": "/altardepterio/static/css/2.95f25948.chunk.css.map",
-    "static/css/main.0a3b4ff7.chunk.css.map": "/altardepterio/static/css/main.0a3b4ff7.chunk.css.map",
-    "static/js/2.c0795b40.chunk.js.LICENSE.txt": "/altardepterio/static/js/2.c0795b40.chunk.js.LICENSE.txt",
-    "static/media/jeremy-perkins-uhjiu8FjnsQ-unsplash.75e91dc5.jpg": "/altardepterio/static/media/jeremy-perkins-uhjiu8FjnsQ-unsplash.75e91dc5.jpg",
-    "static/media/pterio.65394014.png": "/altardepterio/static/media/pterio.65394014.png",
-    "static/media/pterio_home.38daf1dd.png": "/altardepterio/static/media/pterio_home.38daf1dd.png",
-    "static/media/undraw_Container_ship_ok1c.69ddf37e.png": "/altardepterio/static/media/undraw_Container_ship_ok1c.69ddf37e.png"
+    "main.css": "/static/css/main.0a3b4ff7.chunk.css",
+    "main.js": "/static/js/main.de94286d.chunk.js",
+    "main.js.map": "/static/js/main.de94286d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cc72cdca.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cc72cdca.js.map",
+    "static/css/2.95f25948.chunk.css": "/static/css/2.95f25948.chunk.css",
+    "static/js/2.c0795b40.chunk.js": "/static/js/2.c0795b40.chunk.js",
+    "static/js/2.c0795b40.chunk.js.map": "/static/js/2.c0795b40.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.95f25948.chunk.css.map": "/static/css/2.95f25948.chunk.css.map",
+    "static/css/main.0a3b4ff7.chunk.css.map": "/static/css/main.0a3b4ff7.chunk.css.map",
+    "static/js/2.c0795b40.chunk.js.LICENSE.txt": "/static/js/2.c0795b40.chunk.js.LICENSE.txt",
+    "static/media/jeremy-perkins-uhjiu8FjnsQ-unsplash.75e91dc5.jpg": "/static/media/jeremy-perkins-uhjiu8FjnsQ-unsplash.75e91dc5.jpg",
+    "static/media/pterio.65394014.png": "/static/media/pterio.65394014.png",
+    "static/media/undraw_Container_ship_ok1c.69ddf37e.png": "/static/media/undraw_Container_ship_ok1c.69ddf37e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.66ed1716.js",
+    "static/js/runtime-main.cc72cdca.js",
     "static/css/2.95f25948.chunk.css",
     "static/js/2.c0795b40.chunk.js",
     "static/css/main.0a3b4ff7.chunk.css",
-    "static/js/main.a7b01d7b.chunk.js"
+    "static/js/main.de94286d.chunk.js"
   ]
 }
