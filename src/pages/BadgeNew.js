@@ -1,7 +1,6 @@
 import React from "react";
 import Badge from "../components/Badge";
 import BadgeForm from "../components/BadgeForm";
-import Navbar from "../components/Navbar";
 import "./styles/BadgeNew.css";
 import hero from "../images/jeremy-perkins-uhjiu8FjnsQ-unsplash.jpg";
 

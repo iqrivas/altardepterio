@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles/Badge.css';
 import avatar from '../images/undraw_Container_ship_ok1c.png';
-import logo from '../images/pterio_home.png';
+//import logo from '../images/pterio_home.png';
 
 class Badge extends React.Component {
     render () {
