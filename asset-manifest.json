@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/altardepterio/static/css/main.0a3b4ff7.chunk.css",
-    "main.js": "/altardepterio/static/js/main.cebfae28.chunk.js",
-    "main.js.map": "/altardepterio/static/js/main.cebfae28.chunk.js.map",
+    "main.css": "/altardepterio/static/css/main.51e51014.chunk.css",
+    "main.js": "/altardepterio/static/js/main.1f865606.chunk.js",
+    "main.js.map": "/altardepterio/static/js/main.1f865606.chunk.js.map",
     "runtime-main.js": "/altardepterio/static/js/runtime-main.66ed1716.js",
     "runtime-main.js.map": "/altardepterio/static/js/runtime-main.66ed1716.js.map",
     "static/css/2.95f25948.chunk.css": "/altardepterio/static/css/2.95f25948.chunk.css",
-    "static/js/2.af474ced.chunk.js": "/altardepterio/static/js/2.af474ced.chunk.js",
-    "static/js/2.af474ced.chunk.js.map": "/altardepterio/static/js/2.af474ced.chunk.js.map",
+    "static/js/2.4e48f26f.chunk.js": "/altardepterio/static/js/2.4e48f26f.chunk.js",
+    "static/js/2.4e48f26f.chunk.js.map": "/altardepterio/static/js/2.4e48f26f.chunk.js.map",
     "index.html": "/altardepterio/index.html",
     "static/css/2.95f25948.chunk.css.map": "/altardepterio/static/css/2.95f25948.chunk.css.map",
-    "static/css/main.0a3b4ff7.chunk.css.map": "/altardepterio/static/css/main.0a3b4ff7.chunk.css.map",
-    "static/js/2.af474ced.chunk.js.LICENSE.txt": "/altardepterio/static/js/2.af474ced.chunk.js.LICENSE.txt",
+    "static/css/main.51e51014.chunk.css.map": "/altardepterio/static/css/main.51e51014.chunk.css.map",
+    "static/js/2.4e48f26f.chunk.js.LICENSE.txt": "/altardepterio/static/js/2.4e48f26f.chunk.js.LICENSE.txt",
     "static/media/jeremy-perkins-uhjiu8FjnsQ-unsplash.75e91dc5.jpg": "/altardepterio/static/media/jeremy-perkins-uhjiu8FjnsQ-unsplash.75e91dc5.jpg",
     "static/media/pterio.65394014.png": "/altardepterio/static/media/pterio.65394014.png",
-    "static/media/undraw_Container_ship_ok1c.69ddf37e.png": "/altardepterio/static/media/undraw_Container_ship_ok1c.69ddf37e.png"
+    "static/media/undraw_Questions_re_1fy7.9b0856d1.svg": "/altardepterio/static/media/undraw_Questions_re_1fy7.9b0856d1.svg",
+    "static/media/undraw_positive_attitude_xaae.4ef64716.svg": "/altardepterio/static/media/undraw_positive_attitude_xaae.4ef64716.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.66ed1716.js",
     "static/css/2.95f25948.chunk.css",
-    "static/js/2.af474ced.chunk.js",
-    "static/css/main.0a3b4ff7.chunk.css",
-    "static/js/main.cebfae28.chunk.js"
+    "static/js/2.4e48f26f.chunk.js",
+    "static/css/main.51e51014.chunk.css",
+    "static/js/main.1f865606.chunk.js"
   ]
 }
