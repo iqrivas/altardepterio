@@ -6,7 +6,7 @@ import question from '../images/undraw_Questions_re_1fy7.svg';
 class BadgesList extends React.Component {
   render() {
     return (
-      <ul className="list-unstyled">
+      <ul className="list-unstyled px-4">
         {this.props.badges.map((badge) => {
           return (
             <li key={badge._id}>

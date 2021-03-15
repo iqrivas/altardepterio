@@ -2,7 +2,6 @@ import React from "react";
 import Badge from "../components/Badge";
 import BadgeForm from "../components/BadgeForm";
 import "./styles/BadgeNew.css";
-import hero from "../images/jeremy-perkins-uhjiu8FjnsQ-unsplash.jpg";
 
 class BadgeNew extends React.Component {
   state = {
@@ -48,7 +47,7 @@ class BadgeNew extends React.Component {
 
         <div className="container">
           <div className="row">
-            <div className="col-6">
+            <div className="col-md-6 col-sm-12 px-5 mb-4">
               <Badge
                 requestType={this.state.form.requestType}
                 requestTitle={this.state.form.requestTitle}
@@ -58,7 +57,7 @@ class BadgeNew extends React.Component {
                 requestTag={this.state.form.requestTag}
               />
             </div>
-            <div className="col-6">
+            <div className="col-md-6 col-sm-12 px-5">
               <BadgeForm
                 onChange={this.handleChange}
                 formValues={this.state.form}
