@@ -1,29 +1,14 @@
 import React from 'react';
 
 class BadgeForm extends React.Component {
-
-    /* handleChange = e => {
-        this.setState({
-            [e.target.name]: e.target.value
-        })
-    } */
-
-    handleClick = e => {
-        console.log("Botón Guardar presionado");
-    }
-
-    handleSubmit = e => {
-        e.preventDefault();
-        console.log('Formulario enviado');
-        console.log(this.state);
-    }
+   
 
     render() {
         return (
             <div>
                 <h1>Nueva Solicitud</h1>
 
-                <form onSubmit={this.handleSubmit} action="">
+                <form onSubmit={this.props.onSubmit} action="">
                     <div className="form-group">
                         <label>Tipo de Solicitud</label>
                         <select onChange={this.props.onChange} className="form-control" type="text" 

@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Navbar from "../components/Navbar";
 import BadgesList from "../components/BadgesList";
 import hero from "../images/jeremy-perkins-uhjiu8FjnsQ-unsplash.jpg";
 import "./styles/Badges.css";
@@ -17,39 +16,16 @@ class Badges extends React.Component {
 
   componentDidMount() {
     console.log("3. ComponentDidMount()");
+    this.fetchPetitions();
+    
+  }
 
-    this.timeoutId = setTimeout(() => {
-      this.setState({
-        data: [
-          {
-            id: "1",
-            requestType: "Cadena de Oración",
-            requestTitle: "Protección contra el Huracán",
-            requestDescripción: "Oh Gran Pterio, protégenos por favor!",
-            requestAuthor: "La Costeñita",
-            requestTag: "#PterioProtegenos",
-          },
-          {
-            id: "2",
-            requestType: "Consejo de Pterio",
-            requestTitle: "Vacaciones sin Permiso",
-            requestDescripción:
-              "No me autorizaron mis vacaciones, ¿me voy de todas formas?",
-            requestAuthor: "La Regia",
-            requestTag: "#RegiaRebelde",
-          },
-          {
-            id: "3",
-            requestType: "Cadena de Oración",
-            requestTitle: "Salven al Pastelito",
-            requestDescripción:
-              "Rescata el barco! que no se hundan los pastelitos!",
-            requestAuthor: "La Suministradora",
-            requestTag: "#MandenLasLanchas",
-          },
-        ],
-      });
-    }, 20);
+  fetchPetitions = async () => {
+    const response = await fetch('https://altardepterio-api.herokuapp.com/api/petitions');
+    const json = await response.json();
+    this.setState({
+      data: json.data
+    })
   }
 
   componentDidUpdate(prevProps, prevState) {}
@@ -63,9 +39,6 @@ class Badges extends React.Component {
     return (
       <React.Fragment>
         <div className="Badges">
-          <div className="Badges__hero">
-            <img className="img-fluid" src={hero} alt="Hero" />
-          </div>
 
           <div className="Badges__container">
             <div className="Badges__buttons">
@@ -77,7 +50,7 @@ class Badges extends React.Component {
 
           <div className="Badges__list">
             <div className="Badges__container">
-              <BadgesList badges={this.state.data} />
+              <BadgesList badges={this.state.data}/>
             </div>
           </div>
         </div>
