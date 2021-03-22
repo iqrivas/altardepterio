@@ -1,5 +1,5 @@
 import React from "react";
-import Badge from "../components/Badge";
+import NewBadge from "../components/NewBadge";
 import BadgeForm from "../components/BadgeForm";
 import "./styles/BadgeNew.css";
 
@@ -48,7 +48,7 @@ class BadgeNew extends React.Component {
         <div className="container">
           <div className="row">
             <div className="col-md-6 col-sm-12 px-5 mb-4">
-              <Badge
+              <NewBadge
                 requestType={this.state.form.requestType}
                 requestTitle={this.state.form.requestTitle}
                 requestDescription={this.state.form.requestDescription}

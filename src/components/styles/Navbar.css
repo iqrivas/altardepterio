@@ -14,7 +14,7 @@
     display: flex;
     align-items: center;
     overflow: hidden;
-    height: 100px;
+    height: 85px;
   }
 
 .Navbar__brand:hover {
@@ -25,6 +25,6 @@
 .Navbar__brand-logo {
     position: relative;
     margin-right: 1rem;
-    height: 100px;
+    height: 80px;
     top: 0%;
 }
